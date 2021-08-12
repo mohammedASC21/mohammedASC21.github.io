@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- responsive nav -->
+    <!-- responsive nav -->
+    <div id="begin">
+        <div id="navdiv">
+            <div class="navbar">
+                <div class="navbar-logo nav">My Portfolio</div>
+                <div class="navbar-toggle nav"><img src="images/icon.png" width="30px">
+                </div>
+                <div class="navbar-links nav">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="navbar-links nav">
+                    <a href="skills.html">Skills</a>
+                </div>
+                <div class="navbar-links nav">
+                    <a href="experience.html">Experience</a>
+                </div>
+                <div class="navbar-links nav">
+                    <a href="#project_section">Project</a>
+                </div>
+                <div class="navbar-links nav">
+                    <a href="#info_section">Contect</a>
+                </div>
+            </div>
+        </div>
+        <!-- Intro and about me section -->
+
+        <div id="intro">
+            <div id="intro_me">
+                <h2 id="name">Hi, My name is Mohammed Chowdhury</h2><img src="images/me2.jpeg"></div>
+            <h2>About me</h2>
+            <p>I am a rising junior at the high school of computers and technology. I live in NYC. I am currently attending ASC summer intensive. I am interested in the IT field and I like coding and exploring technology related things. I have prior experience
+                programming languages such as Python, Javascript, HTML, and CSS. I aspire to be a software engineer. I am a hardworking person who intends to never give up. I always do my best at the things I do. I spend my leisure time by doing coding,
+                watching Netflix, and playing video games</p>
+        </div>
+    </div>
+    <!-- project section -->
+    <div id="project_section " class="section ">
+        <h2 class="header">My projects</h2>
+        <div class="project_container">
+            <div class="project_box" id="box1">
+                <h2 class="project_head">Pong Game</h2>
+                <a href="https://github.com/mohammedASC21/pong-game " target="_blank "><img src="images/p5game.jpg " class="p5_img "></a>
+                <p><b>Description:</b>Pong game is the first game I ever created. It was a group project for the ASC summmer intensive week 2 milesotne project. I really proud of the work I put into this project. This game about user move the paddle horzontally
+                    in order tomake itcollidewith the ball and if the user miss the ball and ball goes outof the canvas then game is over. </p>
+            </div>
+            <div class="project_box " id="box2">
+                <h2 class="project_head">Copy That Website project</h2>
+                <a href="https://github.com/mohammedASC21/Copy-That-Website-project" target="_blank "><img src="images/Screen Shot 2021-08-02 at 12.46.59 PM.png " class="p5_img2 "></a>
+                <p><b>Description:</b>Copy That Website was the project I did in the ASC summer intensive. It was about copying the basic home of the apple website. I used the my skills HTML and CSS skills to do complete that project, I was fun project and
+                    I enjoyed doing it. </p>
+            </div>
+            <div class="project_box " id="box3">
+                <h2 class="project_head">Mash Game</h2>
+                <a href="https://github.com/mohammedASC21/Copy-That-Website-project" target="_blank "><img src="images/mash-token.png" class="p5_img "></a>
+                <p><b>Description:</b>Mash game was the first project I did in the ASC summer intensive. It was about creating digital version of Mash game. I used the my Javascript skills to do complete that project, I was fun project and I enjoyed doing
+                    it. </p>
+            </div>
+        </div>
+    </div>
+    <!-- contect info -->
+    <div id="info_section " class="section " style="background-color: #2ec194; ">
+        <h2 class="header ">Contect Info</h2>
+
+
+        <div id="contect_info">
+            <div id="contect_">
+                <h3 class="contect_h3">Get in touch with me!</h3>
+                <div id="contect_info1">
+                    <div id="resume">
+                        <h4 class="contect_head" style="margin-bottom: -0px;">My resume</h4>
+                        <a href="https://docs.google.com/document/d/1yvNvu7sAO12n0v1mkBFlRnoPj1O9WOJg1905Cf_fa7o/edit" target="_blank"><img src="images/pngegg (2).png" class="contect_img"></a>
+
+                    </div>
+                    <div id="linkedin">
+                        <h4 class="contect_head" style="margin-bottom: -0px;">My Linkedin</h4>
+                        <a href="https://www.linkedin.com/in/mohammed-chowdhury-65658a216/" target="_blank"><img src="images/pngegg (3).png" class="contect_img"></a>
+                    </div>
+                    <div id="github">
+                        <h4 class="contect_head" style="margin-bottom: -0px;">My github</h4>
+                        <a href="https://github.com/mohammedASC21" target="_blank"><img src="images/github.png" class="contect_img"></a>
+                    </div>
+                </div>
+            </div>
+            <div id="contect_info2">
+                <h4 id="after_send"></h4>
+                <form class="form_container">
+                    <h4>Contect me directly from here</h4>
+                    <div class="form">
+                        <label for="title_input">Name:</label>
+                        <input type="text" id="name" placeholder="Name">
+                    </div>
+
+                    <div class="form">
+                        <label for="noun">Email:</label>
+                        <input type="text" id="email" placeholder="Email" size="40">
+                    </div>
+
+                    <div class="form">
+                        <label style="display: block;" for="adjective">Message:</label>
+                        <textarea rows="8" cols="50" name="comment" form="usrform" style="resize: none;">Enter message here...</textarea>
+                    </div>
+
+                    <button id="submit_button">Send</button>
+                </form>
+            </div>
+        </div>
+        <div id="social">
+            <h4 style="text-align: center; background-color: white; padding: 10px; font-size: 20px;">My Social Media</h4>
+            <div id="con">
+                <div class="social-logo">
+                    <a href="https://www.facebook.com/mohammed299" target="_blank "><img src="images/Facebook-logo.png" width="120px" class="social_img"></a>
+                </div>
+                <div class="social-logo">
+                    <a href="https://www.instagram.com/mohammed299" target="_blank "><img src="images/instagram-logos-png-images-free-download-2.png" width="70px" class="social_img2"></a>
+                </div>
+                <div class="social-logo">
+                    <a href="https://www.twitter.com/mohammed299" target="_blank "><img src="images/twitter2.png" width="80px" class="social_img3"></a>
+                </div>
+                <div class="social-logo">
+                    <a href="https://www.tiktok.com/mohammed299" target="_blank "><img src="images/tiktok_PNG8.png" width="70px" class="social_img2"></a>
+                </div>
+                <div class="social-logo">
+                    <a href="https://www.youtube.com/mohammed299" target="_blank "><img src="images/youtube.png" width="80px" class="social_img4"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer_box">
+        <h5 style="padding-left: 40px; padding-top: 20px; font-size: 15px;">For business inqueries feel free to call me or email me</h5>
+        <div id="footer">
+            <p><strong>My Email: </strong> mohammedchowdhury303gmail.com</p>
+            <p><strong>Phone: </strong> (929)-000-0000</p>
+        </div>
+    </div>
+</body>
+
+</html>
